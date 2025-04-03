@@ -8,3 +8,5 @@ function contadorDeOcorrencia(texto, letra) {
     return contador;
 }
 module.exports = contadorDeOcorrencia;
+
+//teste
