@@ -1,4 +1,4 @@
-function criaObjeto(data: string) {
+function criaObjeto(data) {
    
     if (!data || !data.includes('/')) return null;
 
@@ -15,4 +15,5 @@ function criaObjeto(data: string) {
 
 module.exports = criaObjeto;
 
-console.log("12/06/2012");
+console.log(criaObjeto("12/06/2012"));
+
