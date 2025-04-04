@@ -4,6 +4,7 @@ function criaObjeto(data) {
 
     const [dia, mes, ano] = data.split('/');
 
+    // Validação das partes
     if (!dia || !mes || !ano) return null;
 
     return {
@@ -15,5 +16,4 @@ function criaObjeto(data) {
 
 module.exports = criaObjeto;
 
-console.log(criaObjeto("12/06/2012"));
-
+console.log("12/06/2012");
